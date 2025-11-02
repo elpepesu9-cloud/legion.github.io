@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contacto · Legion</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <canvas id="star-canvas" aria-hidden="true"></canvas>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html"><img src="assets/legion-icon.png" class="logo" alt=""><span class="brand-name">Legion</span></a>
+      <nav id="nav" class="nav">
+        <a class="nav-link" href="index.html">Inicio</a>
+        <a class="nav-link" href="about.html">Sobre</a>
+        <a class="nav-link active" href="contacto.html">Contacto</a>
+        <a id="discordBtn" class="nav-cta" href="#">Unirse al Discord</a>
+      </nav>
+      <button id="menuBtn" class="menu-btn" aria-label="Abrir menú"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section style="padding:3rem 0;max-width:700px">
+      <h1>Contacto</h1>
+      <p class="muted">¿Tienes dudas, necesitas una propuesta para la infraestructura de tu servidor o quieres un plan a medida? Escríbenos y te responderemos lo antes posible.</p>
+
+      <form action="mailto:legionhostsoporte@gmail.com" method="post" enctype="text/plain" style="display:flex;flex-direction:column;gap:0.75rem;margin-top:1rem">
+        <input type="text" name="nombre" placeholder="Nombre" required style="padding:.8rem;border-radius:10px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit">
+        <input type="email" name="email" placeholder="Correo" required style="padding:.8rem;border-radius:10px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit">
+        <textarea name="mensaje" rows="6" placeholder="Tu mensaje (explica necesidades, tipo de servidor, número de jugadores aproximado)" required style="padding:.8rem;border-radius:10px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit"></textarea>
+        <button class="btn" type="submit" data-interactive>Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <p class="brand-footer"><img src="assets/legion-icon.png" alt="Legion" class="logo-sm"> Legion</p>
+      </div>
+      <div>
+        <p class="muted">&copy; 2025 Legion</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

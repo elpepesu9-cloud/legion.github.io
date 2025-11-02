@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Legion · Host</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <canvas id="star-canvas" aria-hidden="true"></canvas>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/legion-icon.png" class="logo" alt="Legion logo">
+        <span class="brand-name">Legion</span>
+      </a>
+
+      <nav id="nav" class="nav" role="navigation" aria-label="Main">
+        <a class="nav-link" href="index.html">Inicio</a>
+        <a class="nav-link" href="about.html">Sobre</a>
+        <a class="nav-link" href="contacto.html">Contacto</a>
+        <a id="discordBtn" class="nav-cta" href="#">Unirse al Discord</a>
+      </nav>
+
+      <button id="menuBtn" class="menu-btn" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-grid">
+        <div class="hero-text">
+          <h1>Legion</h1>
+          <p class="tagline">Hosting optimizado para servidores Minecraft</p>
+          <p class="lead">Rendimiento, seguridad y soporte en español pensado para comunidades y proyectos serios. Entregamos infra, herramientas y asistencia para que tu servidor funcione de forma estable y escalable.</p>
+
+          <div class="hero-actions" style="margin-top:1.2rem">
+            <a id="discordJoin" class="btn ghost" href="#" data-interactive>Unirse al Discord</a>
+            <a class="btn outline" href="contacto.html" data-interactive>Contacto</a>
+          </div>
+        </div>
+
+        <aside class="hero-card" data-interactive>
+          <div class="card-header" style="display:flex;align-items:center;gap:.8rem;margin-bottom:.8rem">
+            <img src="assets/legion-icon.png" alt="Legion" style="width:44px;height:44px;border-radius:10px">
+            <div>
+              <h3 style="margin:0">Estado</h3>
+              <p class="muted" style="margin:0;font-size:.95rem">Actualmente en desarrollo — síguenos para betas y lanzamientos.</p>
+            </div>
+          </div>
+
+          <ul class="features" style="margin-top:1rem">
+            <li><strong>Soporte</strong> en español 24/7</li>
+            <li><strong>Rendimiento</strong> con NVMe y CPUs optimizadas</li>
+            <li><strong>Backups</strong> automáticos y administración sencilla</li>
+          </ul>
+
+          <div style="display:flex;gap:.75rem;margin-top:1.2rem;align-items:center">
+            <a class="btn small" href="contacto.html" data-interactive>Hablar con ventas</a>
+            <a class="muted-link" href="about.html">Más sobre Legion</a>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="community" aria-labelledby="community-title" style="padding-top:2rem">
+      <div class="container" style="max-width:900px;text-align:center">
+        <h2 id="community-title">Comunidad</h2>
+        <p class="muted" style="margin:.6rem 0 1rem">Únete a una comunidad activa donde compartimos actualizaciones, guías, betas y soporte. Nuestro Discord es el centro de interacción: encontrarás canales de ayuda técnica, secciones para anunciantes, y espacios para que creadores y administradores compartan recursos.</p>
+        <p style="margin-bottom:1rem">Si gestionas una comunidad grande, ofrecemos pruebas de rendimiento y soporte dedicado para migraciones y ajustes de configuración. Si necesitas requisitos personalizados (CPU, RAM, backups, ubicaciones de datacenter), coméntanoslo en el Discord o en la página de contacto.</p>
+
+        <a id="discordCard" class="discord-card" href="#" data-interactive>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden><path d="M7 8.5s1-1 2-1 2 .5 2 .5 1-1 2-1 2 .5 2 .5 1-1 2-1v7s-1 1.5-2 2-3 1.5-5 1.5-4-1-5-1.5S7 15.5 7 15.5V8.5z" fill="#fff"/></svg>
+          Unirse al Discord
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <p class="brand-footer"><img src="assets/legion-icon.png" alt="Legion" class="logo-sm" style="width:28px;vertical-align:middle;margin-right:.5rem"> Legion</p>
+        <p class="muted">Hosting de servidores Minecraft · Español</p>
+      </div>
+      <div class="footer-links">
+        <a href="about.html">Sobre</a>
+        <a href="contacto.html">Contacto</a>
+      </div>
+      <div>
+        <p class="muted">&copy; 2025 Legion. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

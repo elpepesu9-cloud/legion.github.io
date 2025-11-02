@@ -1,0 +1,20 @@
+{
+  "name": "legion-landing",
+  "version": "1.0.0",
+  "description": "Landing page for Legion server host.",
+  "main": "public/js/main.js",
+  "scripts": {
+    "start": "live-server public"
+  },
+  "keywords": [
+    "server",
+    "hosting",
+    "legion"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}

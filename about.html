@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Sobre Legion · Hosting Minecraft</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <canvas id="star-canvas" aria-hidden="true"></canvas>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html"><img src="assets/legion-icon.png" class="logo" alt=""><span class="brand-name">Legion</span></a>
+      <nav id="nav" class="nav">
+        <a class="nav-link" href="index.html">Inicio</a>
+        <a class="nav-link active" href="about.html">Sobre</a>
+        <a class="nav-link" href="contacto.html">Contacto</a>
+        <a id="discordBtn" class="nav-cta" href="#">Unirse al Discord</a>
+      </nav>
+      <button id="menuBtn" class="menu-btn" aria-label="Abrir menú"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section style="padding:3rem 0">
+      <h1>Sobre Legion</h1>
+
+      <h2>Nuestra Historia</h2>
+      <p class="muted">Legion nació de la pasión por Minecraft y de la necesidad de ofrecer un hosting orientado a rendimiento, facilidad de uso y soporte en español. Somos un pequeño equipo técnico con experiencia en infra y comunidades de juego.</p>
+
+      <h2>Misión</h2>
+      <p>Nuestra misión es proporcionar una plataforma de hosting que permita a administradores y creadores centrarse en su comunidad y contenido, no en la infraestructura. Para lograrlo trabajamos en:</p>
+      <ul class="muted">
+        <li>Optimización del rendimiento para servidores Minecraft (baja latencia, I/O rápido)</li>
+        <li>Panel de control claro y en español</li>
+        <li>Soporte técnico cercano y documentación práctica</li>
+        <li>Opciones de backup y recuperación sencillas</li>
+      </ul>
+
+      <h2>Tecnología y seguridad</h2>
+      <p>Aplicamos tecnologías modernas y prácticas de seguridad para mantener tu servidor estable y protegido:</p>
+      <ul class="muted">
+        <li>Hardware basado en NVMe y CPUs modernas</li>
+        <li>Red redundante y peering para baja latencia</li>
+        <li>Protección contra DDoS y monitorización 24/7</li>
+        <li>Backups automáticos con restauración por instancia</li>
+      </ul>
+
+      <h2>Comunidad</h2>
+      <p>La comunidad es el núcleo de Legion. Además del soporte técnico, organizamos espacios para intercambio de conocimientos, tests de rendimiento y sesiones de troubleshooting en directo. Nuestro Discord sirve para:</p>
+      <ul class="muted">
+        <li>Canal de soporte técnico y configuraciones avanzadas</li>
+        <li>Anuncios de lanzamientos, mantenimiento y betas</li>
+        <li>Sección para compartir plugins, scripts y optimizaciones</li>
+        <li>Programar migraciones y pruebas para comunidades grandes</li>
+      </ul>
+
+      <p>Si quieres que probemos tu mundo o configuración antes de migrar, contáctanos en Discord o mediante el formulario de contacto.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <p class="brand-footer"><img src="assets/legion-icon.png" alt="Legion" class="logo-sm"> Legion</p>
+      </div>
+      <div>
+        <p class="muted">&copy; 2025 Legion</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
